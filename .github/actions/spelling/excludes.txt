@@ -1,0 +1,22 @@
+# See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-excludes
+(?:^|/)(?i)COPYRIGHT
+(?:^|/)(?i)LICEN[CS]E
+(?:^|/)package(?:-lock|)\.json$
+(?:^|/)vendor/
+/fonts/
+ignore$
+\.avi$
+\.ico$
+\.jpe?g$
+\.lock$
+\.map$
+\.min\.
+\.mod$
+\.mp[34]$
+\.png$
+\.svg$
+\.ttf$
+\.wav$
+\.woff2$
+^src/common/__tests__/hotbar-store\.test\.ts$
+^\.github/
