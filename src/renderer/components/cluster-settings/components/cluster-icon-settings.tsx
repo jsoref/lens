@@ -56,7 +56,7 @@ export class ClusterIconSetting extends React.Component<Props> {
 
         cluster.preferences.icon = `data:${file.type};base64,${buf.toString("base64")}`;
       } else {
-        // this has to be done as a seperate branch (and not always) because `cluster`
+        // this has to be done as a separate branch (and not always) because `cluster`
         // is observable and triggers an update loop.
         cluster.preferences.icon = undefined;
       }
