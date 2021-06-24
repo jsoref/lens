@@ -59,7 +59,7 @@ export class ErrorBoundary extends React.Component<Props, State> {
 
     if (error) {
       const slackLink = <a href={slackUrl} rel="noreferrer" target="_blank">Slack</a>;
-      const githubLink = <a href={issuesTrackerUrl} rel="noreferrer" target="_blank">Github</a>;
+      const githubLink = <a href={issuesTrackerUrl} rel="noreferrer" target="_blank">GitHub</a>;
       const pageUrl = location.pathname;
 
       return (
